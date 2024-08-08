@@ -1,25 +1,25 @@
 {
-    "name": "ZhiPu Copilot",
+    "name": "ZhiPu Copilot 2",
     "nameLocale": {
-        "zh": "智谱 Copilot",
-        "de": "ZhiPu Copilot",
-        "ru": "ZhiPu Copilot",
-        "fr": "ZhiPu Copilot",
-        "pt-BR": "ZhiPu Copilot",
-        "es": "ZhiPu Copilot"
+        "zh": "智谱 Copilot 2",
+        "de": "ZhiPu Copilot 2",
+        "ru": "ZhiPu Copilot 2",
+        "fr": "ZhiPu Copilot 2",
+        "pt-BR": "ZhiPu Copilot 2",
+        "es": "ZhiPu Copilot2"
     },
-    "guid": "asc.{4b5efd7f-7c8d-1ef4-feab-bfbf2e1d86ac}",
+    "guid": "asc.{4c5efd7f-7c8d-1ef4-feab-bfbf2e1d86ac}",
     "baseUrl": "",
-    "version": "1.0.1",
-    "offered": "Jianbo Lin",
+    "version": "2.0.1",
+    "offered": "Linji Zhang",
     "variations": [
         {
-            "description": "A copilot plugin for OnlyOffice Document based on ZhiPu ChatGLM model.",
+            "description": "The second generation Zhipu Copilot plugin",
             "descriptionLocale": {
-                "zh": "基于智谱 ChatGLM 大模型的 OnlyOffice 文档 Copilot 插件",
-                "de": "Ein Copilot-Plugin für OnlyOffice-Dokumente basierend auf dem ZhiPu ChatGLM-Modell.",
-                "ru": "Плагин Copilot для документов OnlyOffice на основе модели ZhiPu ChatGLM.",
-                "fr": "Un plugin copilote pour les documents OnlyOffice basé sur le modèle ZhiPu ChatGLM.",
+                "zh": "第二代智谱Copilot插件",
+                "de": "Natürlich war es das letzte mal. - ja",
+                "ru": "Второе поколение Copilot",
+                "fr": "Deuxième génération du plugin zhizhuang Copilot.",
                 "pt-BR": "Um plugin copiloto para OnlyOffice Document baseado no modelo ZhiPu ChatGLM.",
                 "es": "Un complemento de copiloto para documentos de OnlyOffice basado en el modelo ZhiPu ChatGLM."
             },
