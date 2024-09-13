@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9c41b79-96b9-416b-aa7f-e7e9bf0cefde" name="Changes" comment="zhipu AI plugin 2.0.1">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/onlyoffice.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2foth0kJHZuayehAwXIgrILb1al" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/webStorm/projects/onlyoffice.github.io/sdkjs-plugins/content/zhipu2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GitIgnore"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webStorm\projects\onlyoffice.github.io\sdkjs-plugins\content\zhipu2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9c41b79-96b9-416b-aa7f-e7e9bf0cefde" name="Changes" comment="" />
+      <created>1714479373739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714479373739</updated>
+      <workItem from="1714479375254" duration="5213000" />
+      <workItem from="1714638918777" duration="5726000" />
+      <workItem from="1714713046311" duration="9687000" />
+      <workItem from="1715513736978" duration="7570000" />
+      <workItem from="1715603801381" duration="724000" />
+      <workItem from="1715779363099" duration="632000" />
+      <workItem from="1716100297748" duration="7195000" />
+      <workItem from="1716774802758" duration="7039000" />
+      <workItem from="1719752467105" duration="696000" />
+      <workItem from="1719991976399" duration="3142000" />
+      <workItem from="1720078306568" duration="5922000" />
+      <workItem from="1720578155536" duration="3820000" />
+      <workItem from="1720701060898" duration="2627000" />
+      <workItem from="1720754103355" duration="601000" />
+      <workItem from="1721013194677" duration="3638000" />
+      <workItem from="1721184830023" duration="603000" />
+      <workItem from="1721294693306" duration="1445000" />
+      <workItem from="1721386310806" duration="607000" />
+      <workItem from="1721725928351" duration="789000" />
+      <workItem from="1721894918728" duration="7472000" />
+      <workItem from="1722063475543" duration="4600000" />
+      <workItem from="1722133773021" duration="753000" />
+      <workItem from="1722339112264" duration="1394000" />
+      <workItem from="1722589291745" duration="622000" />
+      <workItem from="1722930531722" duration="3526000" />
+      <workItem from="1723100288246" duration="603000" />
+      <workItem from="1723118930921" duration="3811000" />
+      <workItem from="1725453997426" duration="942000" />
+      <workItem from="1725877653155" duration="1452000" />
+      <workItem from="1726197527401" duration="91000" />
+      <workItem from="1726197723902" duration="201000" />
+      <workItem from="1726198237941" duration="619000" />
+    </task>
+    <task id="LOCAL-00001" summary="zhipu ai 2">
+      <created>1723120005668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723120005668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delete helloworld">
+      <created>1723120131731</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723120131731</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update config.json in store">
+      <created>1723120486778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723120486778</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zhipu2.plugin">
+      <created>1723122422841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723122422841</updated>
+    </task>
+    <task id="LOCAL-00005" summary="change description">
+      <created>1723124049165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723124049165</updated>
+    </task>
+    <task id="LOCAL-00006" summary="zhipu AI plugin 2.0.1">
+      <created>1726198315426</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726198315426</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="zhipu ai 2" />
+    <MESSAGE value="delete helloworld" />
+    <MESSAGE value="update config.json in store" />
+    <MESSAGE value="zhipu2.plugin" />
+    <MESSAGE value="change description" />
+    <MESSAGE value="zhipu AI plugin 2.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="zhipu AI plugin 2.0.1" />
+  </component>
+</project>
