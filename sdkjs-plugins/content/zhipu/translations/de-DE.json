@@ -98,5 +98,7 @@
     "Temperature": "Temperatur",
     "Stop sequences": "Stop-Sequenzen",
     "This plugin doesn't work in Internet Explorer.": "Dieses Plugin funktioniert nicht im Internet Explorer.",
-    "Tokens: ": "Tokens: "
+    "Tokens: ": "Tokens: ",
+    "stop": "stop",
+    "regeneration": "Regeneration"
 }

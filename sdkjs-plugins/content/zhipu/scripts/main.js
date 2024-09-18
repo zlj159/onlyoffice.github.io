@@ -61,6 +61,8 @@
         document.getElementById('send-button').title = window.Asc.plugin.tr("Send Message");
         document.getElementById('userInput').placeholder = window.Asc.plugin.tr("Type your message here...");
         document.getElementById('first-insert').title = window.Asc.plugin.tr("insert document");
+        document.getElementById('stop-button').title = window.Asc.plugin.tr("stop");
+        document.getElementById('regenerate-button').title = window.Asc.plugin.tr("regeneration");
     }
 
 
