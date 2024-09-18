@@ -782,7 +782,6 @@
     }
 
     const reSend = () => {
-        conversationHistory.pop()
         // delete the last message from the conversation history
         messageHistory.removeChild(messageHistory.lastChild);
         if (hasKey) {
