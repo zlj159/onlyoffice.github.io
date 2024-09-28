@@ -61,8 +61,8 @@
         document.getElementById('send-button').title = window.Asc.plugin.tr("Send Message");
         document.getElementById('userInput').placeholder = window.Asc.plugin.tr("Type your message here...");
         document.getElementById('first-insert').title = window.Asc.plugin.tr("insert document");
-        document.getElementById('stop-button').title = window.Asc.plugin.tr("stop");
-        document.getElementById('regenerate-button').title = window.Asc.plugin.tr("regeneration");
+        document.getElementById('stop-button').innerHTML = "<span>&#x25A0;</span>"+window.Asc.plugin.tr("stop");
+        document.getElementById('regenerate-button').innerHTML = "<span>&#x21BA;</span>"+window.Asc.plugin.tr("regeneration");
     }
 
 
@@ -173,10 +173,10 @@
                                     id: 'translate_to_de',
                                     text: generateText('translate to German'),
                                 },
-                                {
-                                    id: 'translate_to_ru',
-                                    text: generateText('translate to Russian'),
-                                },
+                                // {
+                                //     id: 'translate_to_ru',
+                                //     text: generateText('translate to Russian'),
+                                // },
                                 {
                                     id: 'translate_to_es',
                                     text: generateText('translate to Spanish'),
@@ -455,7 +455,7 @@
         window.Asc.plugin.executeMethod('GetSelectedText', null, function (text) {
 
             if (!text  && Asc.plugin.info.editorType === 'cell' ){
-                const message = window.Asc.plugin.tr("Sorry, selecting multiple cells in a spreadsheet for error correction is not currently supported. Please select the text in a single cell.");
+                const message = window.Asc.plugin.tr("Sorry, please select text in a cell to proceed correct selected spelling and grammar.");
                 displayMessage(message, 'ai-message',true);
                 return;
             }
@@ -483,7 +483,7 @@
         window.Asc.plugin.executeMethod('GetSelectedText', null, function (text) {
 
             if (!text  && Asc.plugin.info.editorType === 'cell' ){
-                const message = window.Asc.plugin.tr("Sorry, selecting multiple cells in a spreadsheet for summarization is not currently supported. Please select the text in a single cell.");
+                const message = window.Asc.plugin.tr("Sorry, please select text in a cell to proceed summarize the selected text.");
                 displayMessage(message, 'ai-message',true);
                 return;
             }
@@ -500,7 +500,7 @@
         window.Asc.plugin.executeMethod('GetSelectedText', null, function (text) {
 
             if (!text  && Asc.plugin.info.editorType === 'cell' ){
-                const message = window.Asc.plugin.tr("Sorry, selecting multiple cells in a spreadsheet for explanation is not currently supported. Please select the text in a single cell.");
+                const message = window.Asc.plugin.tr("Sorry, please select text in a cell to proceed explain the selected text.");
                 displayMessage(message, 'ai-message',true);
                 return;
             }
@@ -704,12 +704,13 @@
     function translateHelper(text, targetLanguage) {
         const str = `translate the selected text to ${targetLanguage}`
         const message = window.Asc.plugin.tr(str);
-        displayMessage(message);
+
         if (!text  && Asc.plugin.info.editorType === 'cell' ){
-            const message = window.Asc.plugin.tr("Sorry, selecting multiple cells in a spreadsheet for translation is not currently supported. Please select the text in a single cell.");
+            const message = window.Asc.plugin.tr("Sorry, please select text in a cell to proceed translate selected text.");
             displayMessage(message, 'ai-message',true);
             return;
         }
+        displayMessage(message);
         const prompt = translatePrompt(text, targetLanguage);
         const request = decoratePrompt(prompt);
 
@@ -738,7 +739,9 @@
             Asc.plugin.callCommand(function () {
                 let oDocument = Api.GetDocument();
                 let oParagraph = Api.CreateParagraph();
-
+                let width = Asc.scope.imgsize.width * (25.4 / 96.0) * 36000;
+                let height = Asc.scope.imgsize.height * (25.4 / 96.0) * 36000;
+                let oDrawing = Api.CreateImage(Asc.scope.url, width, height);
                 oParagraph.AddDrawing(oDrawing);
 
                 // insert picture and replace the selecting word
@@ -984,7 +987,7 @@
         startChat(request)
         let prompt = request;
         let systemMessage = getSystemMessage();
-        let config = {model: localStorage.getItem('model')}
+        let config = {model: localStorage.getItem('model'), temperature: 0.5}
         abortController = new AbortController()
         zhipuChatRequest(prompt, systemMessage, true, config, abortController.signal)
             .then(reader => {

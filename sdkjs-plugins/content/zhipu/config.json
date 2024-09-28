@@ -1,17 +1,17 @@
 {
-    "name": "ZhiPu Copilot2 aa",
+    "name": "ZhiPu Copilot",
     "nameLocale": {
-        "zh": "智谱 Copilot2",
-        "de": "ZhiPu Copilot2",
-        "ru": "ZhiPu Copilot2",
-        "fr": "ZhiPu Copilot2",
-        "pt-BR": "ZhiPu Copilot2",
-        "es": "ZhiPu Copilot2"
+        "zh": "智谱 Copilot",
+        "de": "ZhiPu Copilot",
+        "ru": "ZhiPu Copilot",
+        "fr": "ZhiPu Copilot",
+        "pt-BR": "ZhiPu Copilot",
+        "es": "ZhiPu Copilot"
     },
-    "guid": "asc.{4b5efd7f-7c8d-1ef4-feab-bfbf2e1d86aa}",
+    "guid": "asc.{4b5efd7f-7c8d-1ef4-feab-bfbf2e1d86ac}",
     "baseUrl": "",
     "version": "2.0.1",
-    "offered": "Linji Zhang aaa",
+    "offered": "Jianbo Lin and Linji Zhang",
     "variations": [
         {
             "description": "A copilot plugin for OnlyOffice based on ZhiPu ChatGLM model.",
