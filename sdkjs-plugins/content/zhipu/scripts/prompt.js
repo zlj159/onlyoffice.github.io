@@ -4,7 +4,7 @@ ${content}`;
 const analyzeTextPrompt = (content, language) => `Analyze the following text, provide your response in plain text without using any Markdown formatting or special characters. And use ${language} to express your analysis effectively:
 ${content}`;
 
-const correctContentPrompt = (content, language) => `Please identify and correct the grammatical errors in the following sentence. Do not use any markdown or HTML formatting in your response, only plain text. Describe the corrections in ${language} , but keep the sentence in its original language:
+const correctContentPrompt = (content, language) => `Please identify and correct the grammatical errors in the following sentence. Do not use any markdown or HTML formatting in your response, only plain text. Describe the corrections in ${language} , but when given a revised sentence, be consistent with the language of the original sentence:
 ${content}`;
 
 
