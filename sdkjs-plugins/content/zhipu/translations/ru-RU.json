@@ -12,7 +12,7 @@
     "translate to German": "перевести на немецкий язык",
     "translate to French": "перевести на французский язык",
     "translate to Spanish": "перевести на испанский язык",
-
+    "ZhiPu AI API Key": "Ключ API Z",
     "clear chat history": "очистить историю чата",
     "Choose a model": "выбрать модель",
     "Clear chat history": "очистить историю чата",
@@ -98,7 +98,5 @@
     "Temperature": "Температура",
     "Stop sequences": "Последовательности остановки",
     "This plugin doesn't work in Internet Explorer.": "Этот плагин не работает в браузере Internet Explorer.",
-    "Tokens: ": "Токены: ",
-    "stop": "остановить",
-    "regeneration": "регенерация"
+    "Tokens: ": "Токены: "
 }
